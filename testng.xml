@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EXUVIANCE">
+
+	<listeners>
+		<listener class-name="com.exuviance.utility.CustomListener"></listener>
+	</listeners>
+
+	<test name="EXUVIANCE : TEST-CASES">
+		<classes>
+			<class name="com.exuviance.testcases.HeaderPageTest" />
+			<class name="com.exuviance.testcases.FooterPageTest" />
+			<class name="com.exuviance.testcases.IndexPageTest" />
+			<class name="com.exuviance.testcases.HomePageTest" />
+			<class name="com.exuviance.testcases.OurStoryTest" />
+			<class name="com.exuviance.testcases.RegistrationTest" />
+			<class name="com.exuviance.testcases.ForgotPasswordTest" />
+			<class name="com.exuviance.testcases.QuizPageTest" />
+			<class name="com.exuviance.testcases.ProductListingPageTest" />
+			<class name="com.exuviance.testcases.ProductDisplayPageTest" />
+			<class name="com.exuviance.testcases.CartPageTest" />
+			<class name="com.exuviance.testcases.ShippingTest" />
+			
+			<!--<class name="com.exuviance.testcases.HolidayPageTest" />
+			<class name="com.exuviance.testcases.LoginPageTest" />
+			<class name="com.exuviance.testcases.MyAccountPageTest" />
+			<class name="com.exuviance.testcases.WishlistPageTest" />-->
+		</classes>
+	</test>
+</suite>
